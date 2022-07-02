@@ -20,7 +20,9 @@
                 6,
                 7,
                 8,
-                9
+                9,
+                10,
+                11
             ]
         }
     ],
@@ -188,6 +190,40 @@
                 -0.800000011920929,
                 0.8999999165534973
             ]
+        },
+        {
+            "mesh" : 10,
+            "name" : "Sphere.003",
+            "scale" : [
+                0.5000002980232239,
+                0.5,
+                0.5000004768371582
+            ],
+            "translation" : [
+                -2,
+                -0.5,
+                0
+            ]
+        },
+        {
+            "mesh" : 11,
+            "name" : "Text.003",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "scale" : [
+                0.125,
+                0.125,
+                0.125
+            ],
+            "translation" : [
+                -2,
+                -0.800000011920929,
+                0.8999999165534973
+            ]
         }
     ],
     "materials" : [
@@ -251,6 +287,19 @@
                 },
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Material.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "roughnessFactor" : 0.0010000000474974513
             }
         }
     ],
@@ -387,6 +436,33 @@
                         "TEXCOORD_0" : 35
                     },
                     "indices" : 21
+                }
+            ]
+        },
+        {
+            "name" : "Sphere.006",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 36,
+                        "NORMAL" : 37,
+                        "TEXCOORD_0" : 38
+                    },
+                    "indices" : 3,
+                    "material" : 5
+                }
+            ]
+        },
+        {
+            "name" : "Text.003",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 39,
+                        "NORMAL" : 40,
+                        "TEXCOORD_0" : 41
+                    },
+                    "indices" : 17
                 }
             ]
         }
@@ -720,6 +796,62 @@
             "componentType" : 5126,
             "count" : 1132,
             "type" : "VEC2"
+        },
+        {
+            "bufferView" : 36,
+            "componentType" : 5126,
+            "count" : 559,
+            "max" : [
+                0.9999997019767761,
+                1,
+                0.9999994039535522
+            ],
+            "min" : [
+                -0.9999990463256836,
+                -1,
+                -0.9999987483024597
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 37,
+            "componentType" : 5126,
+            "count" : 559,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 38,
+            "componentType" : 5126,
+            "count" : 559,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 39,
+            "componentType" : 5126,
+            "count" : 1241,
+            "max" : [
+                3.2250006198883057,
+                0,
+                0.23000000417232513
+            ],
+            "min" : [
+                -3.1840004920959473,
+                0,
+                -0.6910000443458557
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 40,
+            "componentType" : 5126,
+            "count" : 1241,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 41,
+            "componentType" : 5126,
+            "count" : 1241,
+            "type" : "VEC2"
         }
     ],
     "bufferViews" : [
@@ -902,6 +1034,36 @@
             "buffer" : 0,
             "byteLength" : 9056,
             "byteOffset" : 271820
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6708,
+            "byteOffset" : 280876
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6708,
+            "byteOffset" : 287584
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4472,
+            "byteOffset" : 294292
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 14892,
+            "byteOffset" : 298764
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 14892,
+            "byteOffset" : 313656
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9928,
+            "byteOffset" : 328548
         }
     ],
     "samplers" : [
@@ -912,7 +1074,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 280876,
+            "byteLength" : 338476,
             "uri" : "glass02.bin"
         }
     ]
